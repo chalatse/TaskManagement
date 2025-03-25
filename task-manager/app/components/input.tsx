@@ -1,4 +1,3 @@
-// app/components/ui/input.tsx
 import React, { ChangeEventHandler } from "react";
 
 interface InputProps {
@@ -20,3 +19,4 @@ export const Input = ({ value, onChange, type = "text", className, placeholder }
     />
   );
 };
+
